@@ -1,0 +1,67 @@
+object Versions {
+    const val kotlin = "1.3.41"
+    const val gradle = "3.3.2"
+    const val benManes = "0.21.0"
+    const val lifecycle = "2.2.0-alpha02"
+    const val room = "2.1.0-alpha06"
+    const val materialComponents = "1.1.0-alpha09"
+    const val constraintLayout = "1.1.3"
+    const val appcompat = "1.0.2"
+    const val junit = "4.12"
+    const val coroutines = "1.2.1"
+    const val navigation = "2.0.0"
+    const val coreKtx = "1.0.1"
+    const val logger = "2.2.0"
+    const val roboelectric = "4.2"
+    const val androidXTestCore = "1.1.0"
+    const val mockitoCore = "2.25.0"
+    const val koin = "2.0.1"
+    const val retrofit = "2.6.1"
+    const val coroutinesAdapter = "0.9.2"
+    const val okHttp = "4.0.1"
+    const val moshi = "1.8.0"
+    const val glide = "4.9.0"
+
+}
+
+object Libraries {
+    const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}"
+    const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
+    const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
+    const val materialComponents = "com.google.android.material:material:${Versions.materialComponents}"
+    const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    const val navigationUi = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
+    const val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
+    const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
+    const val lifecycleViewModelExtensions = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
+    const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
+    const val liveDataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
+    const val roomRuntime = "androidx.room:room-runtime:${Versions.room}"
+    const val roomKtx = "androidx.room:room-ktx:${Versions.room}"
+    const val logger = "com.orhanobut:logger:${Versions.logger}"
+    const val koinAndroid = "org.koin:koin-android:${Versions.koin}"
+    const val koinViewmodel = "org.koin:koin-androidx-viewmodel:${Versions.koin}"
+    const val retrofit2 = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
+    const val moshiConverter = "com.squareup.retrofit2:converter-moshi:${Versions.retrofit}"
+    const val moshi = "com.squareup.moshi:moshi:${Versions.moshi}"
+    const val moshiKotlin = "com.squareup.moshi:moshi-kotlin:${Versions.moshi}"
+    const val retrofitCoroutinesAdapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${Versions.coroutinesAdapter}"
+    const val okHttp = "com.squareup.okhttp3:okhttp:${Versions.okHttp}"
+    const val okHttpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.okHttp}"
+    const val glide = "com.github.bumptech.glide:glide:4.9.0"
+    const val swipeRefresh = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02"
+}
+
+object TestLibraries {
+    val junit = "junit:junit:${Versions.junit}"
+    val roboelectric = "org.robolectric:robolectric:${Versions.roboelectric}"
+    val androidXTestCore = "androidx.test:core:${Versions.androidXTestCore}"
+    val mockitoCore = "org.mockito:mockito-core:${Versions.mockitoCore}"
+    val koinTest = "org.koin:koin-test:${Versions.koin}"
+}
+
+object KaptLibraries {
+    val moshiKotlinCodegen = "com.squareup.moshi:moshi-kotlin-codegen:${Versions.moshi}"
+    val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glide}"
+}

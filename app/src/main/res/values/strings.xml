@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sample Project</string>
+    <string name="an_error_has_occured">An error has occurred</string>
+
+    <string name="posts_title">Posts</string>
+    <string name="comments">Comments</string>
+
+</resources>

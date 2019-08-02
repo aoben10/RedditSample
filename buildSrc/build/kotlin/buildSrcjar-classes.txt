@@ -1,0 +1,1 @@
+/Users/victoroben/Developer/Samplecopy/buildSrc/build/classes/kotlin/main/KaptLibraries.class:/Users/victoroben/Developer/Samplecopy/buildSrc/build/classes/kotlin/main/Libraries.class:/Users/victoroben/Developer/Samplecopy/buildSrc/build/classes/kotlin/main/TestLibraries.class:/Users/victoroben/Developer/Samplecopy/buildSrc/build/classes/kotlin/main/Versions.class

@@ -7,8 +7,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.observe
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.theobencode.victoroben.sampleproject.CommentsFragmentArgs.Companion.fromBundle
 import com.theobencode.victoroben.sampleproject.R
+import com.theobencode.victoroben.sampleproject.presentation.comments.CommentsFragmentArgs.Companion.fromBundle
 import com.theobencode.victoroben.sampleproject.presentation.posts.DataState
 import kotlinx.android.synthetic.main.fragment_post_comments.commentsRecyclerView
 import kotlinx.android.synthetic.main.fragment_post_comments.progressBar

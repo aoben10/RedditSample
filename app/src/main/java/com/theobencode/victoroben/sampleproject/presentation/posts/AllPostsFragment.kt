@@ -11,7 +11,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.theobencode.victoroben.sampleproject.R
-import com.theobencode.victoroben.sampleproject.presentation.AllPostsFragmentDirections.Companion.actionAllPostsToPostCommentsFragment
+import com.theobencode.victoroben.sampleproject.presentation.posts.AllPostsFragmentDirections.Companion.actionAllPostsToPostCommentsFragment
 import com.theobencode.victoroben.sampleproject.startRefreshing
 import com.theobencode.victoroben.sampleproject.stopRefreshing
 import kotlinx.android.synthetic.main.fragment_all_posts.postsRecyclerView

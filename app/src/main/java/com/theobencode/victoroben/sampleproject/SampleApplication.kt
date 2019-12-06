@@ -16,7 +16,7 @@ class SampleApplication : Application() {
         super.onCreate()
         startKoin {
             androidLogger()
-            androidContext(this@SampleApplication)
+            androidContext(this@SampleApplication)   
             modules(listOf(networkModule, viewModelModule, repositoryModule))
         }
         Logger.addLogAdapter(object : AndroidLogAdapter() {

@@ -15,8 +15,8 @@ class SampleApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         startKoin {
-            androidLogger()
-            androidContext(this@SampleApplication)   
+            androidLogger()  
+            androidContext(this@SampleApplication)
             modules(listOf(networkModule, viewModelModule, repositoryModule))
         }
         Logger.addLogAdapter(object : AndroidLogAdapter() {
